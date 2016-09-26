@@ -2,6 +2,31 @@
 
 This course teaches the use of modern C++ (C++11, C++14 and C++17) for statistical programming. Students will learn how to write idiomatic and efficient C++ libraries to solve statistical problems, and how to call these C++ libraries from scripting languages such as R, Python and Julia. The course will cover the use of computationally intensive algorithms such as bootstrapping, permutation resampling, Monte Carlo methods, multivariate optimization and deep learning in the context of biomedical data analysis.
 
+## Learning objectives
+
+After completing the course, the student is expected to
+
+- Write idiomatic modern C++ code for
+  - numerical optimization
+  - statistical simulations
+- Use the C++ standard library
+  - containers
+  - algorithm, functional and iterator
+  - strings
+  - streams
+  - numerics
+  - threads
+- Use external C++ libraries
+  - Boost libraries
+    - Accumulators
+    - Graph
+    - Math
+  - Linear algebra libraries `eigen` and `armadillo`
+  - Optimization libraries e.g. `nlopt`
+- Use build systems to construct C++ executables
+- Optimize slow C++ routines
+- Wrap C++ routines for use in other languages such as R, Julia and Python
+
 ## 0. Prelude
 
 - 0.1 Why C++?
