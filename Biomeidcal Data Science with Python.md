@@ -10,6 +10,7 @@ After completing the course, the student is expected to
   - creating isolated environments
   - version control
   - unit testing
+  - logging and debugging
   - continuous integration
   - literate programming
   - distribute to the Python Packaging Index (PyPI)
@@ -50,9 +51,10 @@ After completing the course, the student is expected to
 - 1.6 Functional core and imperative shell
 - 1.7 Decorators
 - 1.8 The Python Standard Library
-  - 1.8.1 The working environment `os` and `sys`
-  - 1.8.2 Dates and tiems
-  - 1.8.3
+  - 1.8.1 The working environment `os`, `sys`, `glob` and `argparse`
+  - 1.8.2 Dates and times `datetime` and `calendar`
+  - 1.8.3 Data persistence with `pickle` and `sqlite3`
+  - 1.8.4 Trouble shooting with `pdb`, `logging`  and `doctest`
 - 1.9 Testing code and continuous integration
 - 1.10 Packaging and distribution of Python programs
 
@@ -106,7 +108,7 @@ After completing the course, the student is expected to
 
 - 6.1 Benchmarking and profiling
 - 6.2 Use better data structures, algorithms and libraries
-- 6.3 Generators and the `itertools` Library
+- 6.3 Generators and using the `itertools`, `functools` and `operator`' modules
 - 6.4 Asynchronous and event-driven programming
 - 6.5 4 Simple multicore programming with `multiprocessing` and `deco`
 - 6.6 Just-in-time compilation and easy parallelization with `numba`
