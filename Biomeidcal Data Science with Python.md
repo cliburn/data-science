@@ -25,6 +25,7 @@ After completing the course, the student is expected to
   - relational data
   - document data
   - semantic data
+  - distributed data
 - Scale up Python code for I/O, CPU and disk-limited operations
   - asynchronous processing for I/O limited operations
   - native code compilation and multi-core processing for CPU limited operations
@@ -118,3 +119,4 @@ After completing the course, the student is expected to
 - 6.10 Out-of-core data analysis with the Blaze ecosystem
 - 6.11 Distributed data programming with `pyspark`
 - 6.12 Python as glue: Polyglot programming in Jupyter
+- 6.13 Computing in the cloud: Large-scale data processing on AWS
