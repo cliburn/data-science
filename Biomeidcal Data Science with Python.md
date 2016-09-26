@@ -1,5 +1,35 @@
 # Biomedical Data Science with Python
 
+This course introduces the Python language for biomedical data science. Besides familiarity with coding in Python, the course will teach the use of the Python scientific stack for numerical and statistical analysis, resources for obtaining, parsing and archival of online material, elements of statistical and machine learning with open source libraries, text data parsing and mining, and how to perform idiomatic, native and multi-core processing to improve performance, as well as off-core/distributed computations for massive data sets.
+
+## Learning objectives
+
+After completing the course, the student is expected to
+
+- Write, package and maintain code for reproducible analysis
+  - creating isolated environments
+  - version control
+  - unit testing
+  - continuous integration
+  - literate programming
+  - distribute to the Python Packaging Index (PyPI)
+- Write idiomatic Python code to solve programming problems in the following domains
+  - data gathering from the web
+  - data analysis and visualization
+  - machine learning
+  - natural language processing and text mining
+- Use appropriate tools for data archival and retrieval
+  - plain text and binary storage
+  - hierarchical data
+  - relational data
+  - document data
+  - semantic data
+- Scale up Python code for I/O, CPU and disk-limited operations
+  - asynchronous processing for I/O limited operations
+  - native code compilation and multi-core processing for CPU limited operations
+  - distributed programming for disk-limited operations
+  - use Python as a glue language for pragmatic solutions to messy problems
+
 ## 0. Prelude
 
 - 0.1 Why Python?
@@ -20,6 +50,9 @@
 - 1.6 Functional core and imperative shell
 - 1.7 Decorators
 - 1.8 The Python Standard Library
+  - 1.8.1 The working environment `os` and `sys`
+  - 1.8.2 Dates and tiems
+  - 1.8.3
 - 1.9 Testing code and continuous integration
 - 1.10 Packaging and distribution of Python programs
 
@@ -55,9 +88,9 @@
 - 4.5 Evaluation and validation
 - 4.6 Workflow and pipelines
 - 4.7 Machine learning with `sklearn`
-- 4.8 Deep learning with `TensorFlow`
+- 4.8 Deep learning with `tensorFlow`
 - 4.9 Bayesian machine learning with `pymc3` and `pystan`
-- 4.10 Image analysis with OpenCV
+- 4.10 Image analysis with `skimage` and `cv2`
 
 ## 5. Text processing
 
@@ -71,14 +104,15 @@
 
 ## 6. Big data and making Python faster
 
-- 6.1 Use better data structures, algorithms and libraries
-- 6.2 Generators and the `itertools` Library
-- 6.3 Asynchronous and event-driven programming
-- 6.4 Simple multicore programming with `multiprocessing` and `deco`
-- 6.5 Just-in-time compilation and easy parallelization with `numba`
-- 6.6 From Python to Cython
-- 6.7 Using `pybind11` to work with C++
-- 6.8 Using `fotranmagic` to work with Fortran
-- 6.9 Out-of-core data analysis with the Blaze ecosystem
-- 6.10 Distributed data programming with `pyspark`
-- 6.11 Python as glue: Polyglot programming in Jupyter
+- 6.1 Benchmarking and profiling
+- 6.2 Use better data structures, algorithms and libraries
+- 6.3 Generators and the `itertools` Library
+- 6.4 Asynchronous and event-driven programming
+- 6.5 4 Simple multicore programming with `multiprocessing` and `deco`
+- 6.6 Just-in-time compilation and easy parallelization with `numba`
+- 6.7 Static typing with `cython`
+- 6.8 Using `pybind11` to work with C++
+- 6.9 Using `fotranmagic` to work with Fortran
+- 6.10 Out-of-core data analysis with the Blaze ecosystem
+- 6.11 Distributed data programming with `pyspark`
+- 6.12 Python as glue: Polyglot programming in Jupyter
