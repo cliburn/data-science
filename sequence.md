@@ -2,26 +2,54 @@
 
 ## (1) Foundations of biomedical data science
 
+- [Best practices for scientific computing](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 - Unix shell and friends
     - Unix shell
+        - Files and directories
+        - History and tab completion
+        - Pipes and redirection
+        - Looping over files
+        - Creating and running shell scripts
+        - Finding things
     - Regular expressions
     - Basic shell scripts
     - Remote computing
 - Programming in Python
     - Using the REPL to explore Python
     - Using a text editor / IDE
+    - Using libraries
     - Types and containers
-    - Flow control
-    - Functions
+    - Working with arrays
+    - Reading and plotting data
+    - Creating and using functions
+    - Loops and conditionals
+    - Defensive programming
+    - Using Python from the command line
 - SQL and NoSQL databases
     - Relational database concepts
     - Queries in SQL
+        - Reading and sorting data
+        - Filtering with where
+        - Calculating new values on the fly
+        - Handling missing values
+        - Combining values using aggregation
+        - Combining information from multiple tables using join
+        - Creating, modifying, and deleting data
+        - Programming with databases
     - NoSQL database examples
     - Databases and Python
 - Good practices for software development
     - Writing readable code
     - Literate programming
     - Version control
+        - Creating a repository
+        - Recording changes to files: add, commit
+        - Viewing changes: status, diff
+        - Undoing changes: checkout, revert, reset
+        - Ignoring files
+        - Working on the web: clone, pull, push
+        - Resolving conflicts
+        - Where to host work, and why
     - Reproducible analysis
 
 ## (2) Data science with R
