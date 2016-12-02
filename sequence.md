@@ -74,19 +74,29 @@
     - Multi-core computing in R
 - Writing R packages for CRAN and BioConductor
 
-## (3) Statistical programming with modern C++ (see detailed syllabus)
+## (3) Big data, open data
 
-- Modern C++ for statistics
-- Distributions and simulations
-- Linear algebra and optimization
-- Making C++ faster
-
-## (4) Biomedical data science case studies
-
-- Working with big data
+- Working with open data
+    - The [FAIR](http://www.nature.com/articles/sdata201618) framework
+      - Findable
+      - Actionable
+      - Interoperable
+      - reproducible
+- Biomedical open data science examples
+    - Data commons and publicly accessible resources
+    - Open science contest finalists
+- Data standards and ontologies
+    - Data standards
+    - Medical terminology systems
+    - The Open Biomedical Ontologies Foundry
+    - Electronic Health Records (EHR)
+- Introduction to big data
     - What is big data?
     - Out-of-core computing
     - Distributed computing
+
+## (4) Biomedical data science case studies
+
 - Text, NLP and EHR
     - From text to numerical features
     - Sentiment analysis
@@ -101,3 +111,10 @@
     - Working with HTS data
     - Visualizing genomic data
     - Data standards and resources for genomics
+
+## (5) Statistical programming with modern C++ (see detailed syllabus)
+
+    - Modern C++ for statistics
+    - Distributions and simulations
+    - Linear algebra and optimization
+    - Making C++ faster
