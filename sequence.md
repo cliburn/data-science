@@ -22,7 +22,10 @@
     - Working with arrays
     - Reading and plotting data
     - Creating and using functions
+    - Generators and lazy evaluation
     - Loops and conditionals
+    - Functional programming style in Python
+    - Asynchronous programming with `asyncio`
     - Defensive programming
     - Using Python from the command line
 - SQL and NoSQL databases
@@ -57,7 +60,7 @@
 
 - Data manipulation
     - Tidy data
-    - Using `tidyr` and `dplyr`
+    - Functional programming style in R with `tidyr` and `dplyr`
 - Practical statistical and machine learning
     - Dimension reduction
     - Feature selection
@@ -87,6 +90,16 @@
   - The Hadoop ecosystem
   - Working with online/streaming data
   - Probabilisitic data structures
+- Introduction to Scala
+  - Immutable and mutable data structures
+  - `apply`, `map`, `fold` and other higher order functions
+  - Lambda functions
+  - Partial application and currying
+  - Function composition
+  - Case classes
+  - Pattern matching
+  - Sequence comprehensions
+  - Collections and parallel collections
 - Distributed data frameworks
   - The MapReduce algorithm
   - Using Spark for distributed processing
