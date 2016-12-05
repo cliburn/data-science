@@ -39,6 +39,7 @@
     - NoSQL database examples
     - Databases and Python
 - Good practices for software development
+    - The FAIR (Findability, Accessibility, Interoperability and Reusability) principles
     - Writing readable code
     - Literate programming
     - Version control
@@ -74,19 +75,28 @@
     - Multi-core computing in R
 - Writing R packages for CRAN and BioConductor
 
-## (3) Statistical programming with modern C++ (see detailed syllabus)
+## (3) Big data
 
-- Modern C++ for statistics
-- Distributions and simulations
-- Linear algebra and optimization
-- Making C++ faster
+- What is big data?
+  - The big data bottleneck
+  - Distributed computing and functional programming style
+  - Introduction to cloud computing
+- Storage of big data
+  - NoSQL systems for data capture
+  - The Hadoop ecosystem
+  - Working with online/streaming data
+  - Probabilisitic data structures
+- Distributed data frameworks
+  - The MapReduce algorithm
+  - Using Spark for distributed processing
+- Statistical analysis of big data
+  - Scalable algorithms for data reduction/summarization
+  - Scalable algorithms for unsupervised learning
+  - Scalable algorithms for supervised learning
+
 
 ## (4) Biomedical data science case studies
 
-- Working with big data
-    - What is big data?
-    - Out-of-core computing
-    - Distributed computing
 - Text, NLP and EHR
     - From text to numerical features
     - Sentiment analysis
@@ -96,8 +106,18 @@
     - Working with histology images
     - Working with diagnostic images (CT/MRI)
     - Working with video images
-- Genomics
+- Genomics and other "omics"
     - Working with array data
     - Working with HTS data
     - Visualizing genomic data
     - Data standards and resources for genomics
+- Space/time monitoring
+  - Data from mobile platforms and GIS
+  - Continuous time tracking (ICU, activity trackers)
+
+## (A) Statistical programming with modern C++ (see detailed syllabus)
+
+- Modern C++ for statistics
+- Distributions and simulations
+- Linear algebra and optimization
+- Making C++ faster
