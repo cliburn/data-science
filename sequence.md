@@ -39,7 +39,7 @@
     - NoSQL database examples
     - Databases and Python
 - Good practices for software development
-    - The FAIR (Findability, Accessibility, Interoperability and Reusability) principles
+    - The [FAIR](http://www.nature.com/articles/sdata201618) (Findability, Accessibility, Interoperability and Reusability) principles
     - Writing readable code
     - Literate programming
     - Version control
@@ -81,6 +81,7 @@
   - The big data bottleneck
   - Distributed computing and functional programming style
   - Introduction to cloud computing
+  - Data standards, ontologies and open biomedical resources
 - Storage of big data
   - NoSQL systems for data capture
   - The Hadoop ecosystem
@@ -93,7 +94,6 @@
   - Scalable algorithms for data reduction/summarization
   - Scalable algorithms for unsupervised learning
   - Scalable algorithms for supervised learning
-
 
 ## (4) Biomedical data science case studies
 
