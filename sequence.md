@@ -104,6 +104,8 @@
   - The MapReduce algorithm
   - Using Spark for distributed processing
 - Statistical analysis of big data
+  - Using [H20](https://github.com/h2oai/h2o-3)
+  - Using [TensorFlow](https://www.tensorflow.org)
   - Scalable algorithms for data reduction/summarization
   - Scalable algorithms for unsupervised learning
   - Scalable algorithms for supervised learning
